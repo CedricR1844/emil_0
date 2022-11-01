@@ -1,5 +1,3 @@
-window.dataLayer = dataLayer;
-
 const renderBadge = () => {
   const badge = document.querySelector('#cart-badge')
   badge.innerText = cartLS.list().reduce((prev, curr) => prev + curr.quantity, 0)
