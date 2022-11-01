@@ -1,4 +1,3 @@
-const dataLayer = [];
 window.dataLayer = dataLayer;
 
 const renderBadge = () => {
